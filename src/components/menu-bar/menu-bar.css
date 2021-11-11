@@ -27,7 +27,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
-    background-color: $motion-primary;
+    background-color: #191919;
     color: $ui-white;
 }
 
@@ -40,8 +40,8 @@
     flex-grow: 1;
 }
 
-.scratch-logo {
-    height:  1.6rem;
+.afribloxLogo {
+    height:  1.5rem;
     vertical-align: middle;
 }
 

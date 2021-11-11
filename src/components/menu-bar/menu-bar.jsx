@@ -73,7 +73,7 @@ import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 import aboutIcon from './icon--about.svg';
 
-import scratchLogo from './scratch-logo.svg';
+import AfribloxLogo from './afribloxLogo.png';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -390,8 +390,8 @@ class MenuBar extends React.Component {
                     <div className={styles.fileGroup}>
                         <div className={classNames(styles.menuBarItem)}>
                             <img
-                                alt="Scratch"
-                                className={classNames(styles.scratchLogo, {
+                                alt="Afriblox"
+                                className={classNames(styles.afribloxLogo, {
                                     [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
                                 })}
                                 draggable={false}
@@ -670,8 +670,8 @@ class MenuBar extends React.Component {
                                     onMouseUp={this.props.onOpenRegistration}
                                 >
                                     <FormattedMessage
-                                        defaultMessage="Join Scratch"
-                                        description="Link for creating a Scratch account"
+                                        defaultMessage="Join Afriblox"
+                                        description="Link for creating a Afriblox account"
                                         id="gui.menuBar.joinScratch"
                                     />
                                 </div>
@@ -685,7 +685,7 @@ class MenuBar extends React.Component {
                                 >
                                     <FormattedMessage
                                         defaultMessage="Sign in"
-                                        description="Link for signing in to your Scratch account"
+                                        description="Link for signing in to your Afriblox account"
                                         id="gui.menuBar.signIn"
                                     />
                                     <LoginDropdown
@@ -827,7 +827,7 @@ MenuBar.propTypes = {
 };
 
 MenuBar.defaultProps = {
-    logo: scratchLogo,
+    logo: AfribloxLogo,
     onShare: () => {}
 };
 
